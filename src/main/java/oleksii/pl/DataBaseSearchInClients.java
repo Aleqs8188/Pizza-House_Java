@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DataBaseSearch {
+public class DataBaseSearchInClients {
     public Client searchByParameter(String parameterValue1, String parameterValue2) {
         List<Client> resultList = new ArrayList<>();
         Client myObject = new Client();
